@@ -26,7 +26,7 @@ function App() {
                     <main>
 
                         <Switch>
-                            <Route exact path="/" component={Featured} />
+                            <Route exact path="/portfolio" component={Featured} />
 {/*
                             <Route exact path="/contact" component={Contact} />
 
