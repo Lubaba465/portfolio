@@ -25,12 +25,12 @@ const SideDrawer = (props) => {
             <List style={styles.nav}>
 
                 <li className="underline home">
-                    <NavLink exact to="/" activeClassName="active"><AiFillHome/> Home</NavLink>
+                    <NavLink exact to="/portfolio" activeClassName="active"><AiFillHome/> Home</NavLink>
 
                 </li>
                 <li className="underline">
-                    <NavLink exact to="/portfolio" activeClassName="active"><AiFillLayout/> Portfolio</NavLink></li>
-                <li className="underline contact"><NavLink exact to="/contact" activeClassName="active">
+                    <NavLink exact to="/portfolio/projects" activeClassName="active"><AiFillLayout/> Portfolio</NavLink></li>
+                <li className="underline contact"><NavLink exact to="/portfolio/contact" activeClassName="active">
                     <AiFillPhone/> Contact</NavLink></li>
 
             </List>

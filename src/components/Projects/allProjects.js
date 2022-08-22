@@ -80,7 +80,7 @@ btn={skill.btn}
                 className="SplashText__SplashTextStyles-sc-17ii5cd-0 onayw">Projects</span></h1>
             <div className="projects" > {handleShowStripe()}
                 <div className="viewal" style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-                    <Link to="/portfolio"> <button className= "vll" style={vAllBtn}>View All</button></Link>
+                    <Link to="/portfolio/projects"> <button className= "vll" style={vAllBtn}>View All</button></Link>
                 </div>
             </div>
 

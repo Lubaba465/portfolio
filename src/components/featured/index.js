@@ -4,8 +4,8 @@ import image from '../../resources/images/Lubaba.png'
 import {SiCss3, SiHtml5, SiReact} from 'react-icons/si';
 import {IoLogoJavascript} from 'react-icons/io';
 import {Element} from "react-scroll";
-/*import Projects from "../../../../PhpstormProjects/portfolioLubaba/src/components/Projects";
-import Skills from "../../../../PhpstormProjects/portfolioLubaba/src/components/Skills";*/
+import Projects from "../Projects";
+import Skills from "../Skills"
 import cv from '../../assets/CVlubaba.pdf'
 import {Link} from "react-router-dom";
 
@@ -83,12 +83,12 @@ const Featured = () => {
                                  alt="shape" className="illustration"></img>
                         </div>
 
-                   {/*     <Element name="Projects">
+                        <Element name="Projects">
                             <Projects/>
                         </Element>
                         <Element name="Skills">
                             <Skills/>
-                        </Element>*/}
+                        </Element>
                     </div>
                 </div>
             </div>
