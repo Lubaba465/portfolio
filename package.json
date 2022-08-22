@@ -13,6 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run construct",
+    "deploy" : "gh-pages-d construct",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
