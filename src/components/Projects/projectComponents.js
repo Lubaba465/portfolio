@@ -31,7 +31,7 @@ const ProjectComponents = ({
 
     return (
 
-        <div className=" ProjectCard theme-btn-five aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200"
+        <div className=" ProjectCard theme-btn-five aos-init aos-animate" data-aos="fade-up"
              data-aos-delay="4000" data-aos-duration="1000">
             <div className="sText" style={{float: textfloat}}>
                 <div className="skillIcon">{(icon === 'FaReact' && <FaReact/>) || (icon === 'FaTools' &&
@@ -44,7 +44,7 @@ const ProjectComponents = ({
                 <Link className='btn' to={{pathname: `${more}`}} target="_blank">{btn}</Link>
             </div>
 
-            <div className="ProjectCardInner" style={{float: float}} id={id}></div>
+            <div className="ProjectCardInner" data-aos="flip-down" style={{float: float}} id={id} data-aos-delay="4000" data-aos-duration="1000"></div>
         </div>
     )
 }

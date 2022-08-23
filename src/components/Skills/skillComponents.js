@@ -14,7 +14,7 @@ const SkillComponents = ({icon, title, desc, direction}) => {
                 <FaReact/>) || (icon === 'FaTools' && <FaTools/>) || (icon === 'MdDevicesOther' &&
                 <MdDevicesOther/>) || (icon === 'FaCode' && <FaCode/>)}</div>
             <h1 className="skillTitle">{title}</h1>
-            <div className="skillDesc">{desc}</div>
+            <div className="skillDesc"data-aos="zoom-in" data-aos-delay="4000" data-aos-duration="1000">{desc}</div>
         </div>
     )
 }

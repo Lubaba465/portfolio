@@ -29,17 +29,17 @@ const Featured = () => {
 
                                 <div className="text-wrapper">
 
-                                    <h1 data-aos="zoom-in" data-aos-duration="2100">Hallo<br></br><span>
+                                    <h1 data-aos="zoom-in" data-aos-duration="2100"><span>
                                        Lubaba Almohammad</span></h1>
-                                    < p data-aos="zoom-in" data-aos-duration="2100">Ich bin ein kreativer Webentwickler
+                                    < p data-aos="zoom-in" data-aos-duration="2100">Ich bin eine kreative Webentwicklerin
                                         mit einer tiefen Leidenschaft für alles, was mit Computern und Technologie zu
                                         tun hat.</p>
                                     <div aria-hidden="true" className="theme-btn-five aos-init aos-animate"
                                          data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
                                          className="viewal" style={{display: 'flex', marginTop: '50px'}}>
-                                        <button className="vll" style={vAllBtn}>
-                                            <Link className="link" to={{ pathname: `${cv}` }}  target="_blank">Download CV</Link>
-                                            </button>
+
+                                            <Link className="link" to={{ pathname: `${cv}` }}  target="_blank"><button className="download" style={vAllBtn}>Download CV          </button></Link>
+
 
                                 </div>
 
