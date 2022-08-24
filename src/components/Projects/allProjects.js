@@ -14,10 +14,11 @@ const AllProjects =() => {
 
     let allprojectslist=[
         {
+
             "float":"Left",
             "intro":"Project 1",
             "title":"Kinos in Deutscland",
-            "content":"Im Rahmen dieses Projektes ist eine Webseite zum Darstellen von Kinos in Deutschland entwickelt. Auf dieser Website können Benutzer ein Profil erstellen und Einträge zu Kinos in Deutschland erstellen und speichern, sowie Einträge zu Filmen in den bestehenden Kino Einträgen erstellen und speichern. Der Nutzer kann die Website als Gast besuchen oder ein Profil anlegen und sich einloggen. Ziel der Website ist es, einen Überblick über die Kinos in Deutschland und die dort laufenden Filme zu schaffen, ohne dass der Nutzer die einzelnen Kino-Websites einzeln aufrufen muss.",
+            "content":"Im Rahmen dieses Projektes ist eine Webseite zum Darstellen von Kinos in Deutschland entwickelt worden. Auf dieser Website können Benutzer einen Profil und Einträge zu Kinos in Deutschland erstellen und speichern, sowie Einträge zu Filmen in den bestehenden Kinoeinträgen erstellen und speichern. Der Nutzer kann die Website als Gast besuchen oder ein Profil anlegen und sich einloggen. Ziel der Website ist es, einen Überblick über die Kinos in Deutschland und die dort laufenden Filme zu schaffen, ohne dass der Nutzer die einzelnen Kino-Websites einzeln aufrufen muss.",
             "btnclass":"readMore",
             "btn":"Mehr lesen...",
             "icon":true,
@@ -28,20 +29,19 @@ const AllProjects =() => {
             "cat":"LAMP"
         },
         {
+            "float":"Right",
             "intro":"Project 2",
             "title":"Unterstützung der Lehrplanung im DfI durch ein Stud.IP-Plugin",
-            "content":"In Betracht der Vorteile von Stud.IP wird die Softwareanwendung als Stud.IP-Plugin zur Unterstützung der Veranstaltungsplanung im DfI entwickelt, sodass die Plattform hinzugefügt wird und von\n" +
-                "Beiden Nutzergruppen(Lehrenden und Lehrplanenden) verwendet werden kann. Diese Softwareanwendung ermöglicht die Lehrende, ihre Daten selber ins Studip übertragen und ihre Daten aus früheren Semestern verwenden zu können. Lehrende und Sachbearbeiter/innen können sich authentifizieren und Informationen aus früheren Semestern übernehmen und anpassen",
+            "content":"In Betracht der Vorteile von Stud.IP wird die Softwareanwendung als Stud.IP-Plugin zur Unterstützung der Veranstaltungsplanung im DfI entwickelt, sodass die Plattform hinzugefügt wird und von beiden Nutzergruppen (Lehrenden und Verplanenden) verwendet werden kann. Diese Softwareanwendung ermöglicht die Lehrende, ihre Daten selbst ins Stud.IP zu übertragen und ihre Daten aus früheren Semestern verwenden zu können. Lehrende und Sachbearbeiter/innen können sich authentifizieren und Informationen aus früheren Semestern übernehmen und anpassen.",
             "btnclass":"readMore",
             "btn":"Mehr lesen...",
             "icon":true,
             "pId":"p2",
             "link":"https://github.com/Lubaba465/Veranstaltungsanmeldung.git",
             "more":"https://github.com/Lubaba465/Veranstaltungsanmeldung.git",
-            "cat":"LAMP",
-       "float":"Right"
+            "cat":"LAMP"
 
-}
+        }
     ];
 
     const handleShowStripe = () => (

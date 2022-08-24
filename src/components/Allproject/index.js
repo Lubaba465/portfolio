@@ -34,9 +34,7 @@ const AllProjects = () => {
 
                         <div className="titleWraper">
                             <h2 data-aos="fade-up" data-aos-duration="1000">All Projects</h2>
-                            <p className="paraa" data-aos="fade-up" data-aos-duration="2000">Alle Projekte haben ihre
-                                Open Source auf Github, die einfach überprüft werden kann, wenn Sie auf jedem Projekt
-                                auf Mehr lesen klicken.</p>
+                            <p className="paraa" data-aos="fade-up" data-aos-duration="2000">Alle Projekte haben ihre Open Source auf Github, die einfach überprüft werden können, wenn Sie auf jedem Projekt auf „mehr lesen“ klicken.</p>
 
 
                         </div>

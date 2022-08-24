@@ -31,9 +31,7 @@ const Featured = () => {
 
                                     <h1 data-aos="zoom-in" data-aos-duration="2100"><span>
                                        Lubaba Almohammad</span></h1>
-                                    < p data-aos="zoom-in" data-aos-duration="2100">Ich bin eine kreative Webentwicklerin
-                                        mit einer tiefen Leidenschaft für alles, was mit Computern und Technologie zu
-                                        tun hat.</p>
+                                    < p data-aos="zoom-in" data-aos-duration="2100">Ich bin eine ingeniöse Webentwicklerin, mit einer großen Leidenschaft für alles, was mit Computern und Technologie zu tun hat.</p>
                                     <div aria-hidden="true" className="theme-btn-five aos-init aos-animate"
                                          data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
                                          className="viewal" style={{display: 'flex', marginTop: '50px'}}>
