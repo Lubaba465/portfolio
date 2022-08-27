@@ -10,7 +10,6 @@ const AllProjects = () => {
     var MERN = projects.filter(e => e.cat === "MERN")
     var Frontend = projects.filter(e => e.cat === "Front End")
     const [polls, setPolls] = useState(null);
-// used for displaying polls and filtering
     const [filteredPolls, setfilteredPolls] = useState(null)
 
     function showA() {
@@ -62,17 +61,17 @@ const AllProjects = () => {
                                                 more={poll.more}
                                                 btn={poll.btn}> </ProjectComponents>                       </>
 
-                                    )) : projects.map((skill) => (
+                                    )) : projects.map((project) => (
 
 
                                         <ProjectComponents
 
-                                            float={skill.float}
-                                            title={skill.title}
-                                            id={skill.pId}
-                                            content={skill.content}
-                                            more={skill.more}
-                                            btn={skill.btn}
+                                            float={project.float}
+                                            title={project.title}
+                                            id={project.pId}
+                                            content={project.content}
+                                            more={project.more}
+                                            btn={project.btn}
                                         >
 
 
